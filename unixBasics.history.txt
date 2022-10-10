@@ -1,0 +1,389 @@
+    1  pwd
+    2  wich
+    3  which
+    4  pwd
+    5  ..
+    6  cd ..
+    7  ls
+    8  cd
+    9  pwd
+   10  cd ../
+   11  pwd
+   12  cd /bin/
+   13  ls
+   14  ls -l
+   15  ls lt
+   16  ls -lt
+   17  ls man
+   18  ls -lt | head
+   19  man ls
+   20  date ; sleep 2 ; date
+   21  man sleep
+   22  cd ~
+   23  curl -0 htps://raw.githubusercontent.com/prog4biol/pfb2019/master/files/cuffdiff.txt
+   24  curl -0 https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/cuffdiff.txt
+   25  grep Chr17 cuffdiff.txt > fav_chr_cuffdiff.txt
+   26  cd~
+   27  cd ~
+   28  ls
+   29  curl -O https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/cuffdiff.txt
+   30  ls
+   31  grep Chr17 cuffdiff.txt > fav_chr_cuffdiff.txt
+   32  grep Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+   33  head cuffdiff.txt
+   34  cat blablabla.txt
+   35  cat blablabla.txt 2> errors.txt
+   36  head errors.txt
+   37  cd
+   38  ls
+   39  mkdir problemsets
+   40  cd ~/problemsets
+   41  curl -O  https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/sequences.nt.fa
+   42  ls
+   43  cd 
+   44  cd ../
+   45  ls 
+   46  ls -a
+   47  cd ~/problemsets
+   48  wc -lc sequences.nt.fa
+   49  wget 
+   50  wget  https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/sequences.nt.fa
+   51  man ls
+   52  head sequences.nt.fa
+   53  tail sequences.nt.fa
+   54  man tail
+   55  tail -3 sequences.nt.fa
+   56  grep > sequences.nt.fa
+   57  grep -> sequences.nt.fa
+   58  man ls
+   59  head sequences.nt.fa
+   60  wget  https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/sequences.nt.fa
+   61  ls
+   62  rm sequences.nt.fa1
+   63  rm sequences.nt.fa.1
+   64  rm sequences.nt.fa.2
+   65  ls
+   66  head sequences.nt.fa
+   67  rm sequences.nt.fa
+   68  wget  https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/sequences.nt.fa
+   69  head sequences.nt.fa
+   70  grep > sequences.nt.fa
+   71  head sequences.nt.fa
+   72  man grep
+   73  ls
+   74  rm sequences.nt.fa
+   75  wget  https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/sequences.nt.fa
+   76  head sequences.nt.fa
+   77  grep ">" sequences.nt.fa
+   78  man grep
+   79  mv sequences.nt.fa cancer_genes.fasta
+   80  ls
+   81  wget https://raw.githubusercontent.com/prog4biol/pfb2019/master/files/cuffdiff.txt
+   82  ls
+   83  head cancer_genes.fasta
+   84  man sort
+   85  head cuffdiff.txt
+   86  head -1 cuffdiff.txt
+   87  sort -k10 cuffdiff.txt
+   88  sort -k10 cuffdiff.txt > sorted.cuffdiff.txt
+   89  ls
+   90  head sorted.cuffdiff.txt
+   91  sort -k10 cuffdiff.txt | head -100 > top100.sorted.cuffdiff.out
+   92  head top100.sorted.cuffdiff.out
+   93  man print
+   94  man print
+   95  man head
+   96  man head
+   97  man sort
+   98  sort -k10 cuffdiff.txt | head -100 | cut -f 1
+   99  sort -k10 cuffdiff.txt | head -100 | cut -f 1 > differentially.expressed.genes.txt
+  100  ls
+  101  man cut
+  102  cd
+  103  pwd
+  104  ls
+  105  mv Prostak_Pset_1.rtf problemsets
+  106  ls
+  107  cd ~/problemsets
+  108  ls
+  109  head Prostak_Pset_1.rtf
+  110  ls
+  111  echo "# PFB_problemsets" >> README.md
+  112  git init
+  113  git add README.md
+  114  git commit -m "first commit"
+  115  git branch -M main
+  116  git remote add origin https://github.com/sprostak/PFB_problemsets.git
+  117  git push -u origin main
+  118  ls
+  119  ls -a
+  120  git push -u origin main
+  121  git push -u origin main
+  122  git remote add origin git@github.com:sprostak/PFB_problemsets.git
+  123  git push -u origin main
+  124  rm .git
+  125  rm -r .git
+  126  rm -rf .git
+  127  git init
+  128  git add README.md
+  129  git commit -m "first commit"
+  130  git branch -M main
+  131  git remote add origin git@github.com:sprostak/PFB_problemsets.git
+  132  git push -u origin main
+  133  git push -u origin main
+  134  ssh-keygen -t ed25519 -C "sprostak@umass.edu"
+  135  eval "$(ssh-agent -s) "
+  136  open ~/.ssh/config
+  137  touch ~/.ssh/config
+  138  vi ~/.ssh/config
+  139  cat ~/.ssh/id_ed25519.pub
+  140  git push -u origin main
+  141  ls
+  142  git clone git@github.com:prog4biol/pfb2019.git
+  143  ls -a
+  144  mkdir pset_clone
+  145  cd pset_clone
+  146  git clone git@github.com:prog4biol/pfb2019.git
+  147  ls
+  148  cd pfb2019
+  149  ls
+  150  cd 
+  151  ls
+  152  cd problemsets
+  153  ls
+  154  pwd
+  155  ls
+  156  cd ../
+  157  mv problemsets ~/CSH_clone/pfb2019
+  158  ls
+  159  man mv
+  160  mv ~/problemsets ~/pset_clone 
+  161  ls
+  162  cd pset_clone
+  163  ls
+  164  mv ~/pset_clone/problemsets ~/pset_clone/pfb2019
+  165  ls
+  166  cd pfb2019
+  167  ls
+  168  cd problemsets
+  169  ls
+  170  mv ~/pset_clone/problemsets ~/pset_clone/prostak_psets
+  171  ls
+  172  cd ../
+  173  ls
+  174  cd ../
+  175  ls
+  176  mv ~/pset_clone ~
+  177  mv ~/pfb2019 ~
+  178  mv ~/pset_clone/pfb2019 ~
+  179  cd
+  180  ls
+  181  mv ~/pset_clone/prostak_psets ~/pfb2019
+  182  ls
+  183  cd pset_clone
+  184  ls
+  185  cd ../
+  186  ls
+  187  rm pset_clone
+  188  rmdir pset_clone
+  189  ls
+  190  cd pfb2019
+  191  ls
+  192  cd prostak_psets
+  193  ls
+  194  cd ../
+  195  git status
+  196  git add prostak_psets
+  197  git commit -m "adding previous problem set files" 
+  198  git push
+  199  ls
+  200  mv ~/pfb2019/prostak_psets ~/.git
+  201  ls
+  202  cd
+  203  ls
+  204  ls -a
+  205  git status
+  206  cd ~/.git
+  207  git status
+  208  cd
+  209  ls
+  210  mkdir programming_repository
+  211  cd programming_repository
+  212  ls
+  213  git init
+  214  git remote add
+  215  cd
+  216  ls -git
+  217  ls -a
+  218  git remote -v
+  219  mkdir prostak_psets
+  220  cd programming_repository
+  221  ls
+  222  mv ../.git .
+  223  ls -l
+  224  ls- a
+  225  ls -a
+  226  git remote -v
+  227  rm -r .git
+  228  mv ../.git .
+  229  git remote- v
+  230  git remote -v
+  231  vi test
+  232  git add test
+  233  git commit -m test
+  234  git push
+  235  cd
+  236  ls -a
+  237  cd prostak_psets
+  238  ls
+  239  cd
+  240  rmdir prostak_psets
+  241  ls
+  242  cd programming_repository
+  243  ls
+  244  ../
+  245  cd ../
+  246  cd pfb2019
+  247  ls
+  248  git remote -v
+  249  cd
+  250  ls
+  251  mkdir pset_1
+  252  cd pset_1
+  253  curl -O https://raw.githubusercontent.com/prog4biol/pfb2022/master/files/cuffdiff.txt
+  254  cd ~ grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+  255  grep Chr7 cuffdiff.txt > fav_chr_cuffdiff.txt
+  256  Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+  257  grep Chr9 cuffdiff.txt >> fav_chr_cuffdiff.txt
+  258  cat blablabla.txt
+  259  cat blablabla.txt 2> errors.txt
+  260  cat blablabla.txt > errors.txt
+  261  cat fav_chr_cuffdiff.txt blablabla.file
+  262  cat fav_chr_cuffdiff.txt blablabla.file 1> out.txt 2> err.txt
+  263  ls
+  264  pwd
+  265  cd
+  266  cd ../
+  267  ls -a
+  268  cd ~/pset_1
+  269  wget https://raw.githubusercontent.com/prog4biol/pfb2022/master/files/sequences.nt.fa
+  270  wc -lc sequences.nt.fa
+  271  mv sequences.nt.fa cancer_genes.fasta
+  272  l
+  273  ls
+  274  wget https://raw.githubusercontent.com/prog4biol/pfb2022/master/files/cuffdiff.txt
+  275  head cuffdiff.txt
+  276  sort -k10 cuffdiff.txt > sorted.cuffdiff.out
+  277  ls
+  278  sort -k10 cuffdiff.txt | head -100 > top100.sorted.cuffdiff.out
+  279  sort -k10 cuffdiff.txt | head -100 | cut -f 1
+  280  sort -k10 cuffdiff.txt | head -100 | cut -f 1 > differentially.expressed.genes.txt
+  281  ls
+  282  cd
+  283  ls
+  284  mv pset_1 programming_repository 
+  285  ls
+  286  cd programming_repository
+  287  ls
+  288  git status
+  289  git add pset_1
+  290  git commit -m "adding previous problem set files"
+  291  git push
+  292  mkdir files
+  293  ls
+  294  mv ./pset_1/cancer_genes.fasta ./files
+  295  cd file
+  296  cd files
+  297  ls
+  298  git add cancer_genes.fasta
+  299  git add files/cancer_genes.fasta
+  300  cd ../
+  301  git add files/cancer_genes.fasta
+  302  git commit -m "adding cancer_genes.fasta"
+  303  git push
+  304  cd files
+  305  vi mysequences.txt
+  306  add mysequences.txt
+  307  git add mysequences.txt
+  308  git commit -m "added myseqs file"
+  309  git push
+  310  mkdir fastas
+  311  cp cancer_genes.fasta fastas
+  312  ls
+  313  cd fastas
+  314  ls
+  315  cd ../
+  316  rm cancer_genes.fasta
+  317  ls
+  318  cd fastas
+  319  git add cancer_genes.fasta
+  320  git commit - m "moved cancer_genes.fasta to fasta folder"
+  321  git commit -m "moved cancer_genes.fasta to fasta folder"
+  322  git push
+  323  cd ../
+  324  ls
+  325  git push
+  326  cd ../
+  327  ls
+  328  cd files
+  329  ls
+  330  cd ../
+  331  add files
+  332  git add files
+  333  git commit -m "removed original cancer_genes.fasta"
+  334  git push
+  335  cd file
+  336  cd files
+  337  ls
+  338  vi oops.txt
+  339  add oops.txt
+  340  git add oops.txt
+  341  git committ -m "adding oops.txt"
+  342  git commit -m "adding oops.txt"
+  343  git push
+  344  git rm oops.txt
+  345  git commit -m "removing oops.txt"
+  346  git push
+  347  vi oops2.txt
+  348  git add oops2.txt
+  349  git commit -m "adding oops2.txt"
+  350  gi push
+  351  git push
+  352  rm oops2.txt
+  353  git add oops2.txt
+  354  git commit -m "removing oops2.txt"
+  355  git push
+  356  ls
+  357  vi oops3.txt
+  358  ls
+  359  rm oops3.txt
+  360  ls
+  361  git add oops3.txt
+  362  ls
+  363  vi never
+  364  git add never
+  365  git reset never
+  366  git stsus
+  367  git status
+  368  man rm
+  369  cd ./
+  370  cd ../
+  371  git status
+  372  git add README.md
+  373  git commit -m "adding README.md"
+  374  git push
+  375  git status
+  376  ls
+  377  cd pset_1
+  378  ls
+  379  cd ../
+  380  git history
+  381  cd files
+  382  ls
+  383  cd fastas
+  384  ls
+  385  head cancer_genes.fasta
+  386  tail cancer_genes.fasta
+  387  cd ../
+  388  cd ../
+  389  man cd
