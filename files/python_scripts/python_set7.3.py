@@ -15,7 +15,11 @@ with open('/Users/student/programming_repository/files/pset_files/Python_07_ApoI
 	for line in line_list: ## iterate over each element (i.e., line) in the file list
 		line = line.rstrip('\n') ## remove the new line characters from each line in the file
 		matches = re.findall(r'([AG])(AATT[CT])' , line) ## finds the restriction sequence in each line, returns list
-		print(matches)
+		print(f'''
+matches list for line: {matches}
+
+number of restriction sites for line: {len(matches)}
+''' )
 		cut_seq = re.sub(r'([AG])(AATT[CT])', r'\1^\2', line)
 		caret_count = cut_seq.count('^')
 	
