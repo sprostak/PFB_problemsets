@@ -7,11 +7,12 @@ fa_dict = {}
 with open('/Users/student/programming_repository/files/pset_files/test.fasta', 'r') as file_obj:
 	for line in file_obj:
 		if '>' in line:
-			gene_id = line.rstrip('\n')
+			gene_id = line.rstrip('\n')	
+			fa_dict[gene_id] = ''
 		else:
 			seq = line.rstrip('\n')
-			fa_dict[gene_id] = seq
-		
+			fa_dict[gene_id] += seq
+	print(fa_dict)	
 
 
 
