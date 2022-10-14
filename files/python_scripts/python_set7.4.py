@@ -4,7 +4,7 @@ import re
 
 fa_dict = {}
 
-with open('/Users/student/programming_repository/files/pset_files/Python_07_ApoI.fasta' , 'r') as file_obj:
+with open('/Users/student/programming_repository/files/pset_files/test2.fasta' , 'r') as file_obj:
 ## lines 12-18 sort through the inputed fasta file and store gene ids and their seqs in a dict as gene_id:seq
 	for line in file_obj:
 		if '>' in line:
@@ -24,7 +24,7 @@ for gene in fa_dict:											## iterate over each key in {fa_dict}, could be c
 		rest_sites = re.findall(r'([AG])(AATT[CT])', seq)				## finds and stores all ApoI restriction sites present in 'seq' in a list variable [rest_sites]
 		print(f'\nThe number of restriction sites in {gene} is: {len(rest_sites)}')			## prints the number of restriction sites found in current gene
 		carat_seq = re.sub(r'([AG])(AATT[CT])', r'\1^\2', seq)						## places a ^ at the cut site within each restriction site in 'seq', stores result in new variable 'carat_seq'
-		print(f"\nThe number of carats in {gene}'s carat seq is: {carat_seq.count('^')}")			## prints the number of carats in 'carat_seq'
+		print(f"\nThe number of carats in {gene}'s carat seq is: {carat_seq.count('^')}\n")			## prints the number of carats in 'carat_seq'
 		carat_dict[gene] += carat_seq					## adds the 'carat_seq' as the value of the current gene in {carat_dict}
 
 ## lines 31-40 fragment each carat seq at the ^, determines fragment length and sorts fragment from longest to shortesy
@@ -37,6 +37,6 @@ for gene in carat_dict:
 		print(f'The length of fragment {n} in {gene} is: {frag_len}')								## prints the length of each frag for current gene
 		n += 1 																## add 1 to the frag number id for the current gene
 		gel_frags = sorted(frags, key=len, reverse=True)														## sort OG list of frags for current gene by length (lg-sm)
-	print(gel_frags)												## print the sorted list for each gene
+	print(f'\nThe sorted fragments of {gene} are: {gel_frags}\n')										## print the sorted list for each gene
 
 
