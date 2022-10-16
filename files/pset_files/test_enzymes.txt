@@ -1,0 +1,4 @@
+AaaI (XmaIII)                     C^GGCCG
+AacLI (BamHI)                     GGATCC
+AaeI (BamHI)                      GGATCC
+AagI (ClaI)                       AT^CGAT
